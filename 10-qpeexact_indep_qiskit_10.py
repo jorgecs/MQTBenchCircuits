@@ -9,7 +9,7 @@ shots = 10000
 qc = QuantumCircuit()
 
 q = QuantumRegister(10, 'q')
-c = ClassicalRegister(9, 'c')
+c = ClassicalRegister(10, 'c')
 
 qc.add_register(q)
 qc.add_register(c)
